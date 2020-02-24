@@ -15,3 +15,5 @@ jobs:
       with:
         access-token: abc
         deploy-branch: gh-pages
+      env:
+        GRAPHQL_URL: https://swapi-graphql.netlify.com/.netlify/functions/index
